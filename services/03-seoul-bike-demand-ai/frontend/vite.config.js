@@ -10,7 +10,7 @@ export default defineConfig({
 
     proxy: {
       "/predict": {
-        target: "http://52.78.106.64:8000",
+        target: "http://127.0.0.1:8000",
         changeOrigin: true,
       },
     },
